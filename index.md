@@ -13,6 +13,13 @@ The extracted hair patterns have been augmented using the following methods: 1) 
 In total, we used 77 non-hair images as the basis for applying different hair configurations. We augmented the extracted hair by changing the size, amount and colour. In total 252 images were generated with 84 unique masks to cover the different hair types. The Skin Hair dataset contains:
 35 images with small density (each in three colours - light, brown and dark), 27 images with medium density (each in three colours - light, brown and dark) and 22 images with high density (each in three colours - light, brown and dark).
 
+# Result analysis
+Fig. Summary of the IQA metrics including MSE, PSNR, SSIM and UQI for hair inpaining methods including Navier-Stokes, Telea, Hair SinGAN and R-MNet. † = higher value is better; ⊎ = lower value is better.
+Fig. Visual comparison of the results of different methods: a) original dermoscopic image, b) dermoscopic image containing artificial hair, c) Navier-Stokes inpainted image, d) Telea inpainted image, e) Hair SinGAN inpainted image, and f) R-MNet inpainted image.
+
+Fig. Illustrations of the SSIM algorithm for three hair inpainting methods: x) Telea, y) R-MNet and z) Hair SinGAN: a) image differences with darker regions show more
+disparity. Larger areas of disparity are highlighted in black while smaller differences are in gray, b-c) filter using a minimum threshold area to remove the gray noise, and highlight the differences with a bounding box, d) visualisation of the exact differences with a mask on the original image.
+
 # Accessing Dataset
 1. Permission is granted to view and use the Skin Hair Dataset without charge for personal, non-commercial research purposes only. Any commercial use, sale, or other monetization is prohibited.
 
@@ -31,20 +38,5 @@ In consideration for your agreement to the terms and conditions contained here, 
 Limitation of Use
 You may use Skin Hair Dataset for legal purposes only.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Skin-HairDataset/SHD/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
