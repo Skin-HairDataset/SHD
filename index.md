@@ -1,4 +1,5 @@
-## Skin Hair Dataset: Setting the benchmark for effective hair inpainting methods for improving the image quality of dermoscopic images
+## Skin Hair Dataset: 
+Setting the benchmark for effective hair inpainting methods for improving the image quality of dermoscopic images
 
 # Introduction
 Dermoscopic images are often contaminated by artifacts including clinical pen markings, immersion fluid air bubbles, dark corners, and most importantly hair, which makes interpreting them more challenging for clinicians and computer-aided diagnostic algorithms. Hence, automated artifact recognition and inpainting systems have the potential to aid the clinical workflow as well as serve as an preprocessing step in the automated classification of dermoscopic images. In this project, we
