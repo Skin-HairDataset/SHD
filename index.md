@@ -1,8 +1,9 @@
 ## Skin Hair Dataset 
 Setting the benchmark for effective hair inpainting methods for improving the image quality of dermoscopic images
 
-
 # Introduction
+Dermoscopic images are often contaminated by artifacts including clinical pen markings, immersion fluid air bubbles, dark corners, and most importantly hair, which makes interpreting them more challenging for clinicians and computer-aided diagnostic algorithms. Hence, automated artifact recognition and inpainting systems have the potential to aid the clinical workflow as well as serve as an preprocessing step in the automated classification of dermoscopic images. In this project, we
+share the first release of a public dermoscopic image dataset with hair artifacts. The Skin Hair dataset contains over 252 dermoscopic images including artificial hair and will be expanded over time. Furthermore, we present the primary results of applying machine learning algorithms and GAN based architectures to the hair inpainting problem in dermoscopic images. We envision that these results will serve as a benchmark for researchers who might work on the hair detection and reconstruction tasks with this dataset in the future. In this work, we present a skin lesion image dataset based on the ISIC dataset containing dermoscopic images, images containing artificial hairs and the corresponding ground-truth masks. Furthermore, we use four hair inpainting methods including Navier-Stokes, Telea, Hair SinGAN and R-MNet architectures which we evaluate using image quality assessment metrics MSE, PSNR, UQI and SSIM. The R-MNet architecture achieved the highest SSIM score of 0.960.
 # Motivation 
 One of the advantages of deep learning methods is the relative lack of preprocessing needed. In most computer vision tasks, including segmentation and classification which are mostly based on CNNs, datasets without any preparation or preprocessing are directly passed to the backbone of the CNN network in order to learn thefeatures. However, prior research indicates that, in the case of dermoscopic image analysis, most of the algorithms perform better when the artifacts are removed or inpainted.
 The presence of hair in dermoscopic images poses a significant challenge as they may occlude some of the information of the lesion such as its boundary and texture.  Hence, the removal of hair is an important preprocessing step which, due to its diverse appearances, causes significant problems. We propose a dermoscopic image dataset which gives the possibility to work in the area of removing artifacts and can be used as a benchmark for researchers working on hair detection and inpainting. 
@@ -11,6 +12,8 @@ The dataset has been designed based on the ISIC dataset and consists of dermosco
 The extracted hair patterns have been augmented using the following methods: 1) randomly moving and rotating the mask, 2) modification of the selection with small, medium and large number of hairs; 3) changing the color of the hair into three main categories (light, brown, and dark) using brightness, contrast tool and color blending mode; 4) randomly applying different masks onto different clean images, without hair; and 5) for each modified pattern, a reference mask was created using a threshold tool.
 In total, we used 77 non-hair images as the basis for applying different hair configurations. We augmented the extracted hair by changing the size, amount and colour. In total 252 images were generated with 84 unique masks to cover the different hair types. The Skin Hair dataset contains:
 35 images with small density (each in three colours - light, brown and dark), 27 images with medium density (each in three colours - light, brown and dark) and 22 images with high density (each in three colours - light, brown and dark).
+
+# Accessing Dataset
 
 
 1. Numbered
