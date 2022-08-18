@@ -14,7 +14,22 @@ In total, we used 77 non-hair images as the basis for applying different hair co
 35 images with small density (each in three colours - light, brown and dark), 27 images with medium density (each in three colours - light, brown and dark) and 22 images with high density (each in three colours - light, brown and dark).
 
 # Accessing Dataset
+1. Permission is granted to view and use the Skin Hair Dataset without charge for personal, non-commercial research purposes only. Any commercial use, sale, or other monetization is prohibited.
 
+2. Other than the rights granted herein, the AGH University of Science and Technology retains all rights, title, and interest in the DSkin hair dataset
+
+3. You may make a verbatim copy of the Skin Hair Images Dataset for personal, non-commercial research use as permitted in this Research Use Agreement. 
+
+4. YOU MAY NOT DISTRIBUTE, PUBLISH, OR REPRODUCE A COPY of any portion or all of the Skin Hair Images Dataset to others without specific prior written permission from the AGH University of Science and Technology.
+
+5. YOU MAY NOT SHARE THE DOWNLOAD LINK to the Skin Hair dataset to others. If another user within your organization wishes to use the dataset, they must register as an individual user and comply with all the terms of this Research Use Agreement.
+
+6. You must not modify, reverse engineer, decompile, or create derivative works from the Skin Hair Dataset. You must not remove or alter any copyright or other proprietary notices in the Skin Hair Dataset.
+
+In consideration for your agreement to the terms and conditions contained here, AGH grants you permission to view and use the Skin Hair Dataset for personal, non-commercial research. You may not otherwise copy, reproduce, retransmit, distribute, publish, commercially exploit or otherwise transfer any material.
+
+Limitation of Use
+You may use Skin Hair Dataset for legal purposes only.
 
 1. Numbered
 2. List
