@@ -10,8 +10,9 @@ One of the advantages of deep learning methods is the relative lack of preproces
 The presence of hair in dermoscopic images poses a significant challenge as they may occlude some of the information of the lesion such as its boundary and texture.  Hence, the removal of hair is an important preprocessing step which, due to its diverse appearances, causes significant problems. We propose a dermoscopic image dataset which gives the possibility to work in the area of removing artifacts and can be used as a benchmark for researchers working on hair detection and inpainting. 
 
 # Dataset Description
-The dataset has been designed based on the ISIC dataset and consists of dermoscopic images with artificially added hairs as well as corresponding binary masks. We divide the dataset into two separate parts containing hair and without hair, respectively. Due to the very large variety and complexity of the hair patterns, we decided to transfer the hair from other dermoscopic images, which allowed us to maintain their natural appearance (Fig. 1). 
-![My_Image_1](ISIC2017_0000081_oth_m_gt.jpg)
+The dataset has been designed based on the ISIC dataset and consists of dermoscopic images with artificially added hairs as well as corresponding binary masks. We divide the dataset into two separate parts containing hair and without hair, respectively. Due to the very large variety and complexity of the hair patterns, we decided to transfer the hair from other dermoscopic images, which allowed us to maintain their natural appearance (Fig. 1).
+
+<img src="https://github.com/Skin-HairDataset/SHD/blob/gh-pages/ISIC2017_0000081_oth_m_gt.jpg" width="300" height="300">
 
 The process of creating a dermoscopic image with hairs consists of the following steps: 1) Choosing a raw image without artifacts from the ISIC dataset, 2) Choosing an image including hairs from the ISIC dataset, 3) Manually marking the hair areas using Photoshop quick mask with alpha channel, soft, round brush with full opacity and size adapted to the size of the marked hair, 4) Cutting out the hair to a new transparent layer and clearing any additional areas of skin visible on this layer, 5) Applying the hair mask to the dermatoscopic image.
 ![My_Image_2](ISIC2017_0000081_oth_m_gt.jpg)
