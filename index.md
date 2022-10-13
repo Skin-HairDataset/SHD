@@ -21,16 +21,16 @@ In total, we used 77 non-hair images as the basis for applying different hair co
 # Result analysis
 Fig. Summary of the IQA metrics including MSE, PSNR, SSIM and UQI for hair inpaining methods including Navier-Stokes, Telea, Hair SinGAN and R-MNet. † = higher value is better; ⊎ = lower value is better.
 
-<img src="https://github.com/Skin-HairDataset/SHD/blob/gh-pages/summaryIQA.jpg">
+![My_Image_1](summaryIQA.jpg)
 
 Fig. Visual comparison of the results of different methods: a) original dermoscopic image, b) dermoscopic image containing artificial hair, c) Navier-Stokes inpainted image, d) Telea inpainted image, e) Hair SinGAN inpainted image, and f) R-MNet inpainted image.
 
-<img src="https://github.com/Skin-HairDataset/SHD/blob/gh-pages/Visual comparison of the results.jpg">
+![My_Image_2](Visual_comparison_of_the_results.jpg)
 
 Fig. Illustrations of the SSIM algorithm for three hair inpainting methods: x) Telea, y) R-MNet and z) Hair SinGAN: a) image differences with darker regions show more
 disparity. Larger areas of disparity are highlighted in black while smaller differences are in gray, b-c) filter using a minimum threshold area to remove the gray noise, and highlight the differences with a bounding box, d) visualisation of the exact differences with a mask on the original image.
 
-<img src="https://github.com/Skin-HairDataset/SHD/blob/gh-pages/Illustrations of the SSIM algorithm.jpg">
+![My_Image_3](Illustrations_of_the_SSIM_algorithm.jpg)
 
 # Accessing Dataset
 1. Permission is granted to view and use the Skin Hair Dataset without charge for personal, non-commercial research purposes only. Any commercial use, sale, or other monetization is prohibited.
