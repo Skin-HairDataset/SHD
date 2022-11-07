@@ -34,7 +34,7 @@ disparity. Larger areas of disparity are highlighted in black while smaller diff
 
 # Accessing Dataset
 
-You can dawnload Skin-Hair Dataset from this link: https://drive.google.com/drive/folders/1fQr79VpO5vztFQgbU7BNlDE2D29Lx87y?usp=sharing
+You can download Skin-Hair Dataset from this link: https://drive.google.com/drive/folders/1fQr79VpO5vztFQgbU7BNlDE2D29Lx87y?usp=sharing
 The folder contains data obtained from several sources. In each source folder there are original photos, masks, and photos with artificially added hair
 We are still working on enlarging the image database.
 
