@@ -18,12 +18,6 @@ The extracted hair patterns have been augmented using the following methods: 1) 
 In total, we used 77 non-hair images as the basis for applying different hair configurations. We augmented the extracted hair by changing the size, amount and colour. In total 252 images were generated with 84 unique masks to cover the different hair types. The Skin Hair dataset contains:
 35 images with small density (each in three colours - light, brown and dark), 27 images with medium density (each in three colours - light, brown and dark) and 22 images with high density (each in three colours - light, brown and dark).
 
-# Access to Skin-Hair Dataset
-
-You can dawnload Skin-Hair Dataset from this link: https://drive.google.com/drive/folders/1fQr79VpO5vztFQgbU7BNlDE2D29Lx87y?usp=sharing
-The folder contains data obtained from several sources. In each source folder there are original photos, masks, and photos with artificially added hair
-We are still working on enlarging the image database.
-
 # Result analysis
 Fig. Summary of the IQA metrics including MSE, PSNR, SSIM and UQI for hair inpaining methods including Navier-Stokes, Telea, Hair SinGAN and R-MNet. † = higher value is better; ⊎ = lower value is better.
 
@@ -39,6 +33,11 @@ disparity. Larger areas of disparity are highlighted in black while smaller diff
 ![My_Image_3](Illustrations_of_the_SSIM_algorithm.jpg)
 
 # Accessing Dataset
+
+You can dawnload Skin-Hair Dataset from this link: https://drive.google.com/drive/folders/1fQr79VpO5vztFQgbU7BNlDE2D29Lx87y?usp=sharing
+The folder contains data obtained from several sources. In each source folder there are original photos, masks, and photos with artificially added hair
+We are still working on enlarging the image database.
+
 1. Permission is granted to view and use the Skin Hair Dataset without charge for personal, non-commercial research purposes only. Any commercial use, sale, or other monetization is prohibited.
 
 2. Other than the rights granted herein, the AGH University of Science and Technology retains all rights, title, and interest in the DSkin hair dataset
