@@ -18,7 +18,7 @@ The extracted hair patterns have been augmented using the following methods: 1) 
 In total, we used 77 non-hair images as the basis for applying different hair configurations. We augmented the extracted hair by changing the size, amount and colour. In total 252 images were generated with 84 unique masks to cover the different hair types. The Skin Hair dataset contains:
 35 images with small density (each in three colours - light, brown and dark), 27 images with medium density (each in three colours - light, brown and dark) and 22 images with high density (each in three colours - light, brown and dark).
 
-#Access to Skin-Hair Dataset
+# Access to Skin-Hair Dataset
 
 You can dawnload Skin-Hair Dataset from this link: https://drive.google.com/drive/folders/1fQr79VpO5vztFQgbU7BNlDE2D29Lx87y?usp=sharing
 The folder contains data obtained from several sources. In each source folder there are original photos, masks, and photos with artificially added hair
